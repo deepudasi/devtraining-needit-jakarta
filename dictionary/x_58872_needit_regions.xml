@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="regions" max_length="40" name="x_58872_needit_regions" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="u_country" type="string">
+            <choice>
+                <element label="India" sequence="0" value="India"/>
+                <element label="US" sequence="1" value="US"/>
+                <element label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other Country" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="New York" sequence="0" value="New York"/>
+                <element label="New Jersey" sequence="1" value="New Jersey"/>
+                <element label="New Delhi" sequence="2" value="New Delhi"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other state" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>
